@@ -1,6 +1,6 @@
-package br.com.iyisakuma.cap2;
+package br.com.iyisakuma.modelo;
 
-class Usuario {
+public class Usuario {
     private String nome;
     private int pontos;
     private boolean moderador;
@@ -28,8 +28,6 @@ class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "nome='" + nome + '\'' +
-                '}';
+        return String.format("Nome: %s\nPontuacao: %d", nome, pontos);
     }
 }

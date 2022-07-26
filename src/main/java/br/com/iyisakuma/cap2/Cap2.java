@@ -1,8 +1,9 @@
 package br.com.iyisakuma.cap2;
 
+import br.com.iyisakuma.modelo.Usuario;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class Cap2 {
 
