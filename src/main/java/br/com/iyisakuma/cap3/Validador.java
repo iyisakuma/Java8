@@ -1,2 +1,6 @@
-package br.com.iyisakuma.cap3;public interface Validador {
+package br.com.iyisakuma.cap3;
+
+@FunctionalInterface
+public interface Validador<T>{
+    boolean valida(T t);
 }
